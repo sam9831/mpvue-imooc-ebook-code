@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "mp-cell": "./miniprogram_npm/weui-miniprogram/cell/cell",
+    "mp-cells": "./miniprogram_npm/weui-miniprogram/cells/cells",
+    "mp-form": "./miniprogram_npm/weui-miniprogram/form/form",
+    "mp-toptips": "./miniprogram_npm/weui-miniprogram/toptips/toptips"
+  }
+}
