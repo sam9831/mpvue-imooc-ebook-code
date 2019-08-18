@@ -1,0 +1,18 @@
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+.form-item {
+  display: flex;
+  padding: 10px;
+}
+.form-item-label {
+  width: 80px;
+}
+.form-item-value {
+  flex: 1;
+}
+input.form-item-value {
+  border: 1px solid #ccc;
+}

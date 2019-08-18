@@ -1,0 +1,7 @@
+function Lower(value) {
+  return value.toLowerCase()
+}
+
+module.exports = {
+  Lower: Lower
+}

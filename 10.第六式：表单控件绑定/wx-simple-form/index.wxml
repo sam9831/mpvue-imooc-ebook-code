@@ -1,0 +1,33 @@
+<view class="title">用户注册</view>
+<form bindsubmit="register">
+  <view class="form-item">
+    <text class="form-item-label">用户名：</text>
+    <input 
+      class="form-item-value" 
+      placeholder="请输入用户名" 
+      name="username" 
+    />
+  </view>
+  <view class="form-item">
+    <text class="form-item-label">密码：</text>
+    <input 
+      class="form-item-value" 
+      placeholder="请输入密码" 
+      name="password" 
+      type="password" 
+    />
+  </view>
+  <view class="form-item">
+    <text class="form-item-label">确认密码：</text>
+    <input 
+      class="form-item-value" 
+      placeholder="请确认密码" 
+      name="confirmPassword" 
+      type="password" 
+    />
+  </view>
+  <view class="form-item">
+    <button form-type="submit">注册</button>
+    <button form-type="reset">重置</button>
+  </view>
+</form>
