@@ -1,13 +1,16 @@
 <mp-cells title="cells标题文本" ext-class="my-cells" footer="cells底部文本">
-  <mp-cell value="cell标题" footer="说明文字"></mp-cell>
-  <mp-cell>
-    <view>标题文字（使用slot）</view>
+  <mp-cell title="cell标题" footer="说明文字"></mp-cell>
+  <mp-cell title="用户名">
+    <view style="margin-left: 10px;">
+      <input type="text" placeholder="请输入用户名" />
+    </view>
     <view slot="footer">
-      <input placeholder="请填写用户名" />
+      <button>发送验证码</button>
     </view>
   </mp-cell>
 </mp-cells>
 
+<!--
 <mp-cells title="性别">
   <mp-checkbox-group multi="{{false}}">
     <mp-checkbox
@@ -19,3 +22,4 @@
     ></mp-checkbox>
   </mp-checkbox-group>
 </mp-cells>
+-->
