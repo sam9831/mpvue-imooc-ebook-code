@@ -10,7 +10,6 @@
   </mp-cell>
 </mp-cells>
 
-<!--
 <mp-cells title="性别">
   <mp-checkbox-group multi="{{false}}">
     <mp-checkbox
@@ -22,4 +21,3 @@
     ></mp-checkbox>
   </mp-checkbox-group>
 </mp-cells>
--->
