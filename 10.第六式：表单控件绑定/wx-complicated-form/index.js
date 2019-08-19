@@ -25,7 +25,7 @@ Page({
       { name: 'name', rules: { required: true, message: '姓名必须填写' } },
       { name: 'idcard', rules: { 
         validator: function(rule, value, param, models) {
-          console.log(rule, value, param, models)
+          console.log('validator', rule, value, param, models)
           const { idcard } = models
           let message = null
           if (!/^[1-9][0-9]{16}[0-9X]$/.test(idcard)) {
@@ -46,7 +46,6 @@ Page({
     })
   },
   formChange(e) {
-    console.log('input change...', e)
     const { field } = e.currentTarget.dataset
     this.setData({
       [`formData.${field}`]: e.detail.value
@@ -59,6 +58,10 @@ Page({
         this.setData({
           error: errors[0].message,
           tipType: 'error'
+        })
+      } else {
+        wx.showToast({
+          title: '表单提交成功！'
         })
       }
     })
