@@ -1,0 +1,12 @@
+<import src="./subItem" />
+<template name="item111">
+  <text style="color: red">{{obj.message}}</text>
+  <view>{{tips}}</view>
+  <button bindtap="onClick" data-inc="{{tips}}">点我</button>
+</template>
+
+<template name="item222">
+  <view class="item2">item222</view>
+  <template is="sub-item" data="{{subData: 'sub data'}}"/>
+  <comp />
+</template>

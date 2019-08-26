@@ -1,0 +1,5 @@
+<import src="item.wxml"/>
+<text>{{message}}</text>
+<template is="item111" data="{{obj: itemData, tips: 'this is a tip', onClick}}" />
+<template is="item222" />
+<include src="item2.wxml"/>

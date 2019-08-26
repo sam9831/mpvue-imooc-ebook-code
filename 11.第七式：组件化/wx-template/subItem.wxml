@@ -1,0 +1,3 @@
+<template name="sub-item">
+  <view>{{subData}}</view>
+</template>
