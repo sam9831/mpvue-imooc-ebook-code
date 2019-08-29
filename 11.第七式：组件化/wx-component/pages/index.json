@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "comp": "../components/comp",
+    "subComp": "../components/subComp"
+  },
+  "pageOrientation": "auto"
+}

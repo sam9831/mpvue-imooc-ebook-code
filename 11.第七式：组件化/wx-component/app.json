@@ -1,0 +1,7 @@
+{
+  "pages": [
+    "pages/index"
+  ],
+  "resizable": true,
+  "sitemapLocation": "sitemap.json"
+}
